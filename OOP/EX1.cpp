@@ -1,36 +1,32 @@
 //To find the roots of quadratic equations using nested if else structure
 #include <iostream>
-#include <cmath>
+#include <math.h>
 using namespace std;
-
-int main() {
-
-    float a, b, c, x1, x2, discriminant, realPart, imaginaryPart;
-    cout << "Enter coefficients a, b and c: ";
-    cin >> a >> b >> c;
-    discriminant = b*b - 4*a*c;
-    
-    if (discriminant > 0) {
-        x1 = (-b + sqrt(discriminant)) / (2*a);
-        x2 = (-b - sqrt(discriminant)) / (2*a);
-        cout << "Roots are real and different." << endl;
-        cout << "x1 = " << x1 << endl;
-        cout << "x2 = " << x2 << endl;
-    }
-    
-    else if (discriminant == 0) {
-        cout << "Roots are real and same." << endl;
-        x1 = -b/(2*a);
-        cout << "x1 = x2 =" << x1 << endl;
-    }
-
-    else {
-        realPart = -b/(2*a);
-        imaginaryPart =sqrt(-discriminant)/(2*a);
-        cout << "Roots are complex and different."  << endl;
-        cout << "x1 = " << realPart << "+" << imaginaryPart << "i" << endl;
-        cout << "x2 = " << realPart << "-" << imaginaryPart << "i" << endl;
-    }
-
-    return 0;
+int main()
+{
+int a,b,c;
+cout<<"Enter the coefficient of quadratic equation ax^2+bx+c=0"<<endl;
+cin>>a>>b>>c;
+int d;
+float r1,r2;
+d=(b*b)-(4*a*c);
+int e=2*a;
+if(d>0)
+{
+cout<<"Roots r1 & r2 are real and unequal"<<endl;
+r1=(-b+sqrt(d))/e;
+r2=(-b-sqrt(d))/e;
+cout<<"r1="<<r1<<endl;
+cout<<"r2="<<r2<<endl;
+}
+else if(d==0)
+{
+cout<<"Roots are real and equal"<<endl;
+r1=-b/e;
+r2=-b/e;
+cout<<"r1=r2="<<r1<<endl;
+}
+else{
+cout<<"Roots are imaginary";}
+return 0;
 }
