@@ -1,50 +1,30 @@
 /*Menu driven program to calculate Area of circle, rectangle and triangle by using
 switch case structure*/
-#include<iostream>
-#include<math.h>
-
+#include <iostream>
 using namespace std;
 int main()
 {
-float a, b, c, s, radius, area;
-
-int ch;
-
-cout<<"1.Area Of Circle";
-cout<<"\n2.Area Of Rectangle";
-cout<<"\n3.Area Of Triangle \n";
-cout<<"\nEnter Your Choice :";
-
-cin>>ch;
-
-switch(ch)
+int l,b,h,r;
+cout<<"Enter length l , bredth/base b, height h, and radius r"<<endl;
+cin>>l>>b>>h>>r;
+cout<<" 1.area of circle "<<endl;
+cout<<" 2.area of rectangle "<<endl;
+cout<<" 3.area of triangle "<<endl;
+cout<<" enter choice "<<endl;
+int choice;
+cin>>choice;
+switch (choice)
 {
 case 1:
-{
-cout<<"\nEnter the Radius of Circle: ";
-cin>>radius;
-area=3.14159*radius*radius;
-cout<<"Area of Circle = "<<area<<endl;
+cout<<"area of circle="<<3.14*r*r;
 break;
-}
 case 2:
-{
-cout<<"\nEnter the Length and Breadth of Rectangle:";
-cin>>a>>b;
-area=a*b;
-cout<<"Area of Rectangle = "<<area<<endl;
+cout<<"area of rectangle="<<l*b;
 break;
-}
 case 3:
-{
-cout<<"\nEnter All Three Sides of Triangle with 3 Sides:";
-cin>>a>>b>>c;
-s=(a+b+c)/2;
-area=sqrt(s*(s-a)*(s-b)*(s-c));
-cout<<"Area of Triangle = "<<area<<endl;
+cout<<"area of triangle="<<0.5*b*h;
 break;
-}
-default: cout<<"\n Invalid Choice Try Again...!!!";
+default:cout<<"Wrong choice";
 break;
 }
 return 0;
