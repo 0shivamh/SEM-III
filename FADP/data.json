@@ -1,0 +1,138 @@
+[
+    {
+        "Book":"DBMS",
+        "availability":"true",
+        "Shell_No":2
+    },
+    {
+        "Book":"ACN",
+        "availability":"false",
+        "Shell_No":0
+    },
+    {
+        "Book":"DCC",
+        "availability":"true",
+        "Shell_No":3
+    },
+    {
+        "Book":"CGR",
+        "availability":"false",
+        "Shell_No":0
+    },
+    {
+        "Book":"JAVA",
+        "availability":"true",
+        "Shell_No":3
+    },
+    {
+        "Book":"DSA",
+        "availability":"true",
+        "Shell_No":2
+    },
+    {
+        "Book":"C by Dennis Ritchie",
+        "availability":"true",
+        "Shell_No":1
+    },
+    {
+        "Book":"HTML CSS JS",
+        "availability":"true",
+        "Shell_No":1
+    },
+    {
+        "Book":"Basic Electronic",
+        "availability":"false",
+        "Shell_No":0
+    },
+    {
+        "Book":"Microprocessor",
+        "availability":"true",
+        "Shell_No":4
+    },
+    {
+        "Book":"Software Engineering",
+        "availability":"true",
+        "Shell_No":4
+    },
+    {
+        "Book":"Advanced Java",
+        "availability":"true",
+        "Shell_No":5
+    },
+    {
+        "Book":"Software Testing",
+        "availability":"true",
+        "Shell_No":5
+    },
+    {
+        "Book":"Python Programming",
+        "availability":"true",
+        "Shell_No":6
+    },
+    {
+        "Book":"Mobile Application Development",
+        "availability":"false",
+        "Shell_No":6
+    },
+    {
+        "Book":"Web Development with PHP",
+        "availability":"true",
+        "Shell_No":6
+    },
+    {
+        "Book":"Emerging Tech",
+        "availability":"false",
+        "Shell_No":6
+    }
+    ,
+    {
+        "Book":"Ruby Programming",
+        "availability":"true",
+        "Shell_No":6
+    },
+    {
+        "Book":"Kotlin",
+        "availability":"false",
+        "Shell_No":0
+    },
+    {
+        "Book":"Web Development with MERN",
+        "availability":"false",
+        "Shell_No":0
+    },
+    {
+        "Book":"IOT",
+        "availability":"false",
+        "Shell_No":0
+    },
+    {
+        "Book":"Mongo",
+        "availability":"false",
+        "Shell_No":0
+    },
+    {
+        "Book":"MEAN Stack",
+        "availability":"true",
+        "Shell_No":8
+    },
+    {
+        "Book":"Data Science",
+        "availability":"true",
+        "Shell_No":10
+    },
+    {
+        "Book":"Machine Learning",
+        "availability":"true",
+        "Shell_No":10
+    },
+    {
+        "Book":"Neural Network",
+        "availability":"false",
+        "Shell_No":0
+    },
+    {
+        "Book":"information Security",
+        "availability":"true",
+        "Shell_No":1
+    }
+]
